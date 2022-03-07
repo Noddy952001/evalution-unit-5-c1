@@ -67,7 +67,7 @@ function App() {
       <h1 className='totalNotebooks'>NoteBooks : {notebookcount}</h1>
       <h1 className='totalInkpens'>InkPen : {inkpencount}</h1>
 
-      <h1>totalOfAllItems : {bookcount+pencount+inkpencount+ notebookcount}</h1>
+      <h1 className='total'>totalOfAllItems : {bookcount+pencount+inkpencount+ notebookcount}</h1>
 
    
     </div>
